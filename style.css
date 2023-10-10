@@ -50,9 +50,7 @@ p{
 }
 
 .card{
-    border: solid 5px black;
     width: 14.6rem;
-    height: 18.1rem;
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
@@ -61,11 +59,23 @@ p{
 }
 
 .card-img{
+    border: solid 5px black;
     background-color:rgb(87, 87, 226);
-    width: 14.4rem;
-    height: 16.25rem;
+    width: 14.6rem;
+    height: 16.55rem;
 }
 
 .card-nombre{
-    background-color:cadetblue;
+    background-color:black;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15.4rem;
+    height: 3rem;
+    position:relative;
+    top: -10px;
+    transform: rotate(2deg);
 }
